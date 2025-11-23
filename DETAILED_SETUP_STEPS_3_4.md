@@ -319,7 +319,7 @@ Let's break down what each line means:
 - **For Local MongoDB:** Keep as is
 - **For MongoDB Atlas:** Replace with your Atlas connection string
   ```
-  MONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/bookhub2?retryWrites=true&w=majority
+  MONGODB_URI=
   ```
   - Replace `username` with your Atlas database username
   - Replace `password` with your Atlas database password
