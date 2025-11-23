@@ -136,8 +136,7 @@ choco install mongodb
    ```bash
    sudo systemctl status mongod
    mongosh
-   ```
-
+   ``
 ---
 
 ## Option B: MongoDB Atlas (Cloud - Free Tier)
@@ -190,10 +189,10 @@ choco install mongodb
    - Copy the connection string
    - It looks like:
      ```
-     mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
+    
      ```
    - **Important:** Replace `<username>` and `<password>` with your database user credentials
-   - Add database name at the end: `...mongodb.net/bookhub2?retryWrites=true&w=majority`
+   - Add database name at the end: ``
 
 8. **Save Your Connection String:**
    - You'll use this in Step 4 (the .env file)
