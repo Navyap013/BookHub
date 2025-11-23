@@ -1,0 +1,25 @@
+{
+  "name": "bookhub-2.0",
+  "version": "2.0.0",
+  "description": "Advanced online bookstore and student learning platform",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-server": "cd backend && npm install",
+    "install-client": "cd frontend && npm install",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "create-admin": "cd backend && npm run create-admin",
+    "check-db": "cd backend && npm run check-db",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["bookstore", "mern", "education", "ecommerce"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
