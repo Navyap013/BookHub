@@ -387,7 +387,7 @@ Let's break down what each line means:
 Replace the `MONGODB_URI` line with your Atlas connection string:
 
 ```env
-MONGODB_URI=mongodb+srv://bookhubuser:YourPassword123@cluster0.abc123.mongodb.net/bookhub2?retryWrites=true&w=majority
+MONGODB_URI=
 ```
 
 **How to get it:**
