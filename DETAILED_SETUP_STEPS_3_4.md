@@ -249,12 +249,12 @@ cd "C:\Users\Navya P\Downloads\BookHub_2.0\backend"
 2. **Copy this content into Notepad:**
    ```env
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/bookhub2
+   MONGODB_URI=
    JWT_SECRET=your_super_secret_jwt_key_change_this_12345
    JWT_EXPIRE=7d
    CLIENT_URL=http://localhost:3000
-   RAZORPAY_KEY_ID=rzp_test_key
-   RAZORPAY_KEY_SECRET=rzp_test_secret
+   RAZORPAY_KEY_ID=
+   RAZORPAY_KEY_SECRET=
    NODE_ENV=development
    ```
 
