@@ -525,7 +525,7 @@ NODE_ENV=development
 ### For MongoDB Atlas:
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/bookhub2?retryWrites=true&w=majority
+MONGODB_URI=
 JWT_SECRET=your_super_secret_jwt_key_change_this_12345
 JWT_EXPIRE=7d
 CLIENT_URL=http://localhost:3000
